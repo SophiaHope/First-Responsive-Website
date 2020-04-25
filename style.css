@@ -1,0 +1,60 @@
+.top
+{   height: 50%;
+    width: 100%;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom 
+{   height: 50%;
+    width: 100%;
+    background: pink ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body 
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.words
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200px;
+}
+
+@media (min-width: 992px) { 
+    .bottom 
+{   height: 50%;
+    width: 100%;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+} 
+.words
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
